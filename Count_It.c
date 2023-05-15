@@ -13,11 +13,11 @@ int main()
             cap++;
             // printf("Capital - %d\n", );
         }
-        else if (s[i] >= 'a' && s[i] < 'z')
+        else if (s[i] >= 'a' && s[i] <= 'z')
         {
             sm++;
         }
-        else if (s[i] == ' ')
+        else
         {
             space++;
         }
