@@ -25,7 +25,7 @@ int main()
     }
     for (int i = 0; i < k; i++)
     {
-        // if (a[i] > 0)
+        if (a[i] > 0)
         {
 
             sum += a[i];
