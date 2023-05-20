@@ -1,10 +1,14 @@
 #include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
 
 void update(int *a, int *b)
 {
     // Complete this function
-    *a++;
-    *b++;
+    int sum = *a + *b;
+    int diff = abs(*a - *b);
+    printf("%d\n", sum);
+    printf("%d", diff);
 }
 
 int main()
@@ -14,7 +18,6 @@ int main()
 
     scanf("%d %d", &a, &b);
     update(pa, pb);
-    printf("%d\n%d", a, b);
 
     return 0;
 }
